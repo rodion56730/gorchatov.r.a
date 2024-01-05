@@ -180,22 +180,12 @@ h3 {
 
 
 @keyframes ava-animate {
-    0% {
-        border-radius: 62% 38% 72% 28% / 67% 32% 68% 33%;
-    }
-
-    40% {
-        border-radius: 37% 63% 53% 47% / 67% 32% 68% 33%;
-    }
-
-    60% {
-        border-radius: 23% 77% 39% 61% / 78% 54% 46% 22%;
-    }
-
-    100% {
-        border-radius: 18% 82% 24% 76% / 43% 54% 46% 57%;
-    }
-}
+            0% { transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg); }
+            25% { transform: rotateX(90deg) rotateY(90deg) rotateZ(90deg); }
+            50% { transform: rotateX(180deg) rotateY(180deg) rotateZ(180deg); }
+            75% { transform: rotateX(270deg) rotateY(270deg) rotateZ(270deg); }
+            100% { transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg); }
+        }
 
 .columns {
     width: 100%;
