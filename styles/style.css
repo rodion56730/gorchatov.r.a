@@ -72,7 +72,7 @@ body.theme-dark {
 
 body {
     margin: 0;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Monaspace Krypton', sans-serif;
     background: var(--body-background-color);
     transition-property: background-color, color;
     transition-duration: 300ms;
